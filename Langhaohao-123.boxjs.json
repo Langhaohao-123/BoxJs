@@ -6,7 +6,7 @@
     "repo": "https://github.com/Langhaohao-123/BoxJs/tree/master",
     "apps": [
         {
-            "id": "ShareCode",
+            "id": "UploadShareCode",
             "name": "京东互助码",
             "keys": [
               "BeanCode1", "FruitCode1", "PetCode1", "ZuanCode1", "CarzyJoyCode1", "SurpriseCode1", "FactoryCode1", "BeanCode2", "FruitCode2", "PetCode2", "ZuanCode2", "CarzyJoyCode2", "SurpriseCode2", "FactoryCode2", "BeanCode3", "FruitCode3", "PetCode3", "ZuanCode3", "CarzyJoyCode3", "SurpriseCode3", "FactoryCode3", "BeanCode4", "FruitCode4", "PetCode4", "ZuanCode4", "CarzyJoyCode4", "SurpriseCode4", "FactoryCode4", "BeanCode5", "FruitCode5", "PetCode5", "ZuanCode5", "CarzyJoyCode5", "SurpriseCode5", "FactoryCode5", "BeanCode6", "FruitCode6", "PetCode6", "ZuanCode6", "CarzyJoyCode6", "SurpriseCode6", "FactoryCode6"
