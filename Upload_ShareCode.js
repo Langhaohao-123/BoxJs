@@ -6,7 +6,6 @@ const PetCode1 = $.getdata('PetCode1');
 const ZuanCode1 = $.getdata('ZuanCode1');
 const CarzyJoyCode1 = $.getdata('CarzyJoyCode1');
 const SurpriseCode1 = $.getdata('SurpriseCode1');
-const FactoryCode1 = $.getdata('FactoryCode1');
 
 const BeanCode2 = $.getdata('BeanCode2');
 const FruitCode2 = $.getdata('FruitCode2');
@@ -14,7 +13,6 @@ const PetCode2 = $.getdata('PetCode2');
 const ZuanCode2 = $.getdata('ZuanCode2');
 const CarzyJoyCode2 = $.getdata('CarzyJoyCode2');
 const SurpriseCode2 = $.getdata('SurpriseCode2');
-const FactoryCode2 = $.getdata('FactoryCode2');
 
 const BeanCode3 = $.getdata('BeanCode3');
 const FruitCode3 = $.getdata('FruitCode3');
@@ -22,7 +20,6 @@ const PetCode3 = $.getdata('PetCode3');
 const ZuanCode3 = $.getdata('ZuanCode3');
 const CarzyJoyCode3 = $.getdata('CarzyJoyCode3');
 const SurpriseCode3 = $.getdata('SurpriseCode3');
-const FactoryCode3 = $.getdata('FactoryCode3');
 
 const BeanCode4 = $.getdata('BeanCode4');
 const FruitCode4 = $.getdata('FruitCode4');
@@ -30,7 +27,6 @@ const PetCode4 = $.getdata('PetCode4');
 const ZuanCode4 = $.getdata('ZuanCode4');
 const CarzyJoyCode4 = $.getdata('CarzyJoyCode4');
 const SurpriseCode4 = $.getdata('SurpriseCode4');
-const FactoryCode4 = $.getdata('FactoryCode4');
 
 const BeanCode5 = $.getdata('BeanCode5');
 const FruitCode5 = $.getdata('FruitCode5');
@@ -38,7 +34,6 @@ const PetCode5 = $.getdata('PetCode5');
 const ZuanCode5 = $.getdata('ZuanCode5');
 const CarzyJoyCode5 = $.getdata('CarzyJoyCode5');
 const SurpriseCode5 = $.getdata('SurpriseCode5');
-const FactoryCode5 = $.getdata('FactoryCode5');
 
 const BeanCode6 = $.getdata('BeanCode6');
 const FruitCode6 = $.getdata('FruitCode6');
@@ -46,7 +41,6 @@ const PetCode6 = $.getdata('PetCode6');
 const ZuanCode6 = $.getdata('ZuanCode6');
 const CarzyJoyCode6 = $.getdata('CarzyJoyCode6');
 const SurpriseCode6 = $.getdata('SurpriseCode6');
-const FactoryCode6 = $.getdata('FactoryCode6');
 
 let BeanCodeVal = "";
 let FruitCodeVal = "";
@@ -54,7 +48,6 @@ let PetCodeVal = "";
 let ZuanCodeVal = "";
 let JoyCodeVal = "";
 let SurpriseCodeVal = "";
-let FactoryCodeVal = "";
 
 const BeanCodeArr = [];
 const FruitCodeArr = [];
@@ -62,7 +55,6 @@ const PetCodeArr = [];
 const ZuanCodeArr = [];
 const JoyCodeArr = [];
 const SurpriseCodeArr = [];
-const FactoryCodeArr = [];
 
 let K = 0;
 let Notice ='';
@@ -79,11 +71,10 @@ for (let index = 1; index <= 6; index++) {
     ZuanCodeArr.push($.getdata("ZuanCode" + index));
     JoyCodeArr.push($.getdata("JoyCode" + index));
     SurpriseCodeArr.push($.getdata("SurpriseCode" + index));
-    FactoryCodeArr.push($.getdata("FactoryCode" + index));
 }
     if 
-	(BeanCodeArr.length && FruitCodeArr.length && PetCodeArr.length && ZuanCodeArr.length && JoyCodeArr.length && SurpriseCodeArr.length && FactoryCodeArr.length >=1) {
-	 Amount = BeanCodeArr.length && FruitCodeArr.length && PetCodeArr.length && ZuanCodeArr.length && JoyCodeArr.length && SurpriseCodeArr.length && FactoryCodeArr.length
+	(BeanCodeArr.length && FruitCodeArr.length && PetCodeArr.length && ZuanCodeArr.length && JoyCodeArr.length && SurpriseCodeArr.length >=1) {
+	 Amount = BeanCodeArr.length && FruitCodeArr.length && PetCodeArr.length && ZuanCodeArr.length && JoyCodeArr.length && SurpriseCodeArr.length
 	}
 
 console.log(`============ 共${Amount}个京东账号  =============\n`)
@@ -97,7 +88,6 @@ function all() {
     ZuanCodeVal = ZuanCodeArr[K];
     JoyCodeVal = JoyCodeArr[K];
     SurpriseCodeVal = SurpriseCodeArr[K];
-    FactoryCodeVal = FactoryCodeArr[K];
     for (let i = 0; i < 9; i++) {
         (function (i) {
         setTimeout(
@@ -117,9 +107,7 @@ function all() {
             UploadJoyCode(); // 疯狂的JOY
             if (i == 6 )
             UploadSurpriseCode(); // 京喜工厂
-            if (i == 7 )
-            UploadFactoryCode(); // 东东工厂
-            else  if (i == 8 ) {
+            else  if (i == 7 ) {
                 console.log('\r\n种豆得豆:');
                 console.log($.BeanCodeBody);
                 console.log('\r\n东东农场:');
@@ -132,9 +120,7 @@ function all() {
                 console.log($.JoyCodeBody);
                 console.log('\r\n京喜工厂:');
                 console.log($.SurpriseCodeBody);
-                console.log('\r\n东东工厂:');
-                console.log($.FactoryCodeBody);
-            }else if (i == 9){  
+            }else if (i == 8){  
                 if ( K < BeanCodeArr.length - 1) {
                     K += 1;
                     all();
@@ -314,34 +300,6 @@ function UploadSurpriseCode() { // 修改
                     Information = '未知错误'
                 }
                 Notice += `京喜工厂：` + Information + `\n` // 修改
-            } catch (e) {
-                $.logErr(e, resp)
-            } finally {
-                resolve()
-            }
-        })
-    })
-}
-
-// 上传东东工厂互助码
-function UploadFactoryCode() { // 修改
-    return new Promise((resolve) => {
-        const url = { 
-            url: 'http://api.turinglabs.net/api/v1/jd/ddfactory/create/' + FactoryCodeVal + '/', // 修改
-            headers: {'User-Agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Mobile/15E148 Safari/604.1'},
-	    }
-        $.get(url,(_err, resp, data)=> {  
-            try {
-                const obj = JSON.parse(data)
-                $.FactoryCodeBody = data // 修改
-                if (obj.code == 200) {
-                    Information = '添加成功'
-                } else if (obj.code == 400) {
-                    Information = '已存在'
-                } else {
-                    Information = '未知错误'
-                }
-                Notice += `东东工厂：` + Information + `\n` // 修改
             } catch (e) {
                 $.logErr(e, resp)
             } finally {
