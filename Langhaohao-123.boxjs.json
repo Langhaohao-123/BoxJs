@@ -302,7 +302,7 @@
                     "type": "text",
                     "placeholder": "(点击以展开说明)",
                     "desc": "此处填写账号六的惊喜工厂互助码"
-                },
+                }
             ],
             "author": "@Langhaohao-123",
             "repo": "https://raw.githubusercontent.com/Langhaohao-123/BoxJs/master/Upload_ShareCode.js",
