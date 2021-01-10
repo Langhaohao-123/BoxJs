@@ -1,0 +1,363 @@
+{
+    "id": "Langhaohao-123.sub",
+    "name": "Langhaohao-123 脚本订阅",
+    "author": "@Langhaohao-123",
+    "icon": "https://raw.githubusercontent.com/Langhaohao-123/BoxJs/master/Langhaohao-123.jpg",
+    "repo": "https://github.com/Langhaohao-123/BoxJs/tree/master",
+    "apps": [
+        {
+            "id": "ShareCode",
+            "name": "京东互助码",
+            "keys": [
+              "BeanCode1", "FruitCode1", "PetCode1", "ZuanCode1", "CarzyJoyCode1", "SurpriseCode1", "FactoryCode1", "BeanCode2", "FruitCode2", "PetCode2", "ZuanCode2", "CarzyJoyCode2", "SurpriseCode2", "FactoryCode2", "BeanCode3", "FruitCode3", "PetCode3", "ZuanCode3", "CarzyJoyCode3", "SurpriseCode3", "FactoryCode3", "BeanCode4", "FruitCode4", "PetCode4", "ZuanCode4", "CarzyJoyCode4", "SurpriseCode4", "FactoryCode4", "BeanCode5", "FruitCode5", "PetCode5", "ZuanCode5", "CarzyJoyCode5", "SurpriseCode5", "FactoryCode5", "BeanCode6", "FruitCode6", "PetCode6", "ZuanCode6", "CarzyJoyCode6", "SurpriseCode6", "FactoryCode6"
+            ],
+            "descs_html": [
+              "<h4 align=\"center\">上传京东游戏互助码, 按说明填写互助码后保存设置</a></h4>"
+            ],
+            "settings": [
+                {
+                    "id": "BeanCode1",
+                    "name": "账号一 种豆得豆",
+                    "val": "",
+                    "type": "text",
+                    "placeholder": "(点击以展开说明)",
+                    "desc": "此处填写账号一的种豆得豆互助码"
+                },
+                {
+                    "id": "FruitCode1",
+                    "name": "账号一 东东农场",
+                    "val": "",
+                    "type": "text",
+                    "placeholder": "(点击以展开说明)",
+                    "desc": "此处填写账号一的东东农场互助码"
+                },
+                {
+                    "id": "PetCode1",
+                    "name": "账号一 东东萌宠",
+                    "val": "",
+                    "type": "text",
+                    "placeholder": "(点击以展开说明)",
+                    "desc": "此处填写账号一的东东萌宠互助码"
+                },
+                {
+                    "id": "ZuanCode1",
+                    "name": "账号一 京东赚赚",
+                    "val": "",
+                    "type": "text",
+                    "placeholder": "(点击以展开说明)",
+                    "desc": "此处填写账号一的京东赚赚互助码"
+                },
+                {
+                    "id": "CarzyJoyCode1",
+                    "name": "账号一 疯狂的JOY",
+                    "val": "",
+                    "type": "text",
+                    "placeholder": "(点击以展开说明)",
+                    "desc": "此处填写账号一的疯狂的JOY互助码"
+                },
+                {
+                    "id": "SurpriseCode1",
+                    "name": "账号一 惊喜工厂",
+                    "val": "",
+                    "type": "text",
+                    "placeholder": "(点击以展开说明)",
+                    "desc": "此处填写账号一的惊喜工厂互助码"
+                },
+                {
+                    "id": "FactoryCode1",
+                    "name": "账号一 东东工厂",
+                    "val": "",
+                    "type": "text",
+                    "placeholder": "(点击以展开说明)",
+                    "desc": "此处填写账号一的东东工厂互助码"
+                },
+                {
+                    "id": "BeanCode2",
+                    "name": "账号二 种豆得豆",
+                    "val": "",
+                    "type": "text",
+                    "placeholder": "(点击以展开说明)",
+                    "desc": "此处填写账号二的种豆得豆互助码"
+                },
+                {
+                    "id": "FruitCode2",
+                    "name": "账号二 东东农场",
+                    "val": "",
+                    "type": "text",
+                    "placeholder": "(点击以展开说明)",
+                    "desc": "此处填写账号二的东东农场互助码"
+                },
+                {
+                    "id": "PetCode2",
+                    "name": "账号二 东东萌宠",
+                    "val": "",
+                    "type": "text",
+                    "placeholder": "(点击以展开说明)",
+                    "desc": "此处填写账号二的东东萌宠互助码"
+                },
+                {
+                    "id": "ZuanCode2",
+                    "name": "账号二 京东赚赚",
+                    "val": "",
+                    "type": "text",
+                    "placeholder": "(点击以展开说明)",
+                    "desc": "此处填写账号二的京东赚赚互助码"
+                },
+                {
+                    "id": "CarzyJoyCode2",
+                    "name": "账号二 疯狂的JOY",
+                    "val": "",
+                    "type": "text",
+                    "placeholder": "(点击以展开说明)",
+                    "desc": "此处填写账号二的疯狂的JOY互助码"
+                },
+                {
+                    "id": "SurpriseCode2",
+                    "name": "账号二 惊喜工厂",
+                    "val": "",
+                    "type": "text",
+                    "placeholder": "(点击以展开说明)",
+                    "desc": "此处填写账号二的惊喜工厂互助码"
+                },
+                {
+                    "id": "FactoryCode2",
+                    "name": "账号二 东东工厂",
+                    "val": "",
+                    "type": "text",
+                    "placeholder": "(点击以展开说明)",
+                    "desc": "此处填写账号二的东东工厂互助码"
+                },{
+                    "id": "BeanCode3",
+                    "name": "账号三 种豆得豆",
+                    "val": "",
+                    "type": "text",
+                    "placeholder": "(点击以展开说明)",
+                    "desc": "此处填写账号三的种豆得豆互助码"
+                },
+                {
+                    "id": "FruitCode3",
+                    "name": "账号三 东东农场",
+                    "val": "",
+                    "type": "text",
+                    "placeholder": "(点击以展开说明)",
+                    "desc": "此处填写账号三的东东农场互助码"
+                },
+                {
+                    "id": "PetCode3",
+                    "name": "账号三 东东萌宠",
+                    "val": "",
+                    "type": "text",
+                    "placeholder": "(点击以展开说明)",
+                    "desc": "此处填写账号三的东东萌宠互助码"
+                },
+                {
+                    "id": "ZuanCode3",
+                    "name": "账号三 京东赚赚",
+                    "val": "",
+                    "type": "text",
+                    "placeholder": "(点击以展开说明)",
+                    "desc": "此处填写账号三的京东赚赚互助码"
+                },
+                {
+                    "id": "CarzyJoyCode3",
+                    "name": "账号三 疯狂的JOY",
+                    "val": "",
+                    "type": "text",
+                    "placeholder": "(点击以展开说明)",
+                    "desc": "此处填写账号三的疯狂的JOY互助码"
+                },
+                {
+                    "id": "SurpriseCode3",
+                    "name": "账号三 惊喜工厂",
+                    "val": "",
+                    "type": "text",
+                    "placeholder": "(点击以展开说明)",
+                    "desc": "此处填写账号三的惊喜工厂互助码"
+                },
+                {
+                    "id": "FactoryCode3",
+                    "name": "账号三 东东工厂",
+                    "val": "",
+                    "type": "text",
+                    "placeholder": "(点击以展开说明)",
+                    "desc": "此处填写账号三的东东工厂互助码"
+                },
+                {
+                    "id": "BeanCode4",
+                    "name": "账号四 种豆得豆",
+                    "val": "",
+                    "type": "text",
+                    "placeholder": "(点击以展开说明)",
+                    "desc": "此处填写账号四的种豆得豆互助码"
+                },
+                {
+                    "id": "FruitCode4",
+                    "name": "账号四 东东农场",
+                    "val": "",
+                    "type": "text",
+                    "placeholder": "(点击以展开说明)",
+                    "desc": "此处填写账号四的东东农场互助码"
+                },
+                {
+                    "id": "PetCode4",
+                    "name": "账号四 东东萌宠",
+                    "val": "",
+                    "type": "text",
+                    "placeholder": "(点击以展开说明)",
+                    "desc": "此处填写账号四的东东萌宠互助码"
+                },
+                {
+                    "id": "ZuanCode4",
+                    "name": "账号四 京东赚赚",
+                    "val": "",
+                    "type": "text",
+                    "placeholder": "(点击以展开说明)",
+                    "desc": "此处填写账号四的京东赚赚互助码"
+                },
+                {
+                    "id": "CarzyJoyCode4",
+                    "name": "账号四 疯狂的JOY",
+                    "val": "",
+                    "type": "text",
+                    "placeholder": "(点击以展开说明)",
+                    "desc": "此处填写账号四的疯狂的JOY互助码"
+                },
+                {
+                    "id": "SurpriseCode4",
+                    "name": "账号四 惊喜工厂",
+                    "val": "",
+                    "type": "text",
+                    "placeholder": "(点击以展开说明)",
+                    "desc": "此处填写账号四的惊喜工厂互助码"
+                },
+                {
+                    "id": "FactoryCode4",
+                    "name": "账号四 东东工厂",
+                    "val": "",
+                    "type": "text",
+                    "placeholder": "(点击以展开说明)",
+                    "desc": "此处填写账号四的东东工厂互助码"
+                },
+                {
+                    "id": "BeanCode5",
+                    "name": "账号五 种豆得豆",
+                    "val": "",
+                    "type": "text",
+                    "placeholder": "(点击以展开说明)",
+                    "desc": "此处填写账号五的种豆得豆互助码"
+                },
+                {
+                    "id": "FruitCode5",
+                    "name": "账号五 东东农场",
+                    "val": "",
+                    "type": "text",
+                    "placeholder": "(点击以展开说明)",
+                    "desc": "此处填写账号五的东东农场互助码"
+                },
+                {
+                    "id": "PetCode5",
+                    "name": "账号五 东东萌宠",
+                    "val": "",
+                    "type": "text",
+                    "placeholder": "(点击以展开说明)",
+                    "desc": "此处填写账号五的东东萌宠互助码"
+                },
+                {
+                    "id": "ZuanCode5",
+                    "name": "账号五 京东赚赚",
+                    "val": "",
+                    "type": "text",
+                    "placeholder": "(点击以展开说明)",
+                    "desc": "此处填写账号五的京东赚赚互助码"
+                },
+                {
+                    "id": "CarzyJoyCode5",
+                    "name": "账号五 疯狂的JOY",
+                    "val": "",
+                    "type": "text",
+                    "placeholder": "(点击以展开说明)",
+                    "desc": "此处填写账号五的疯狂的JOY互助码"
+                },
+                {
+                    "id": "SurpriseCode5",
+                    "name": "账号五 惊喜工厂",
+                    "val": "",
+                    "type": "text",
+                    "placeholder": "(点击以展开说明)",
+                    "desc": "此处填写账号五的惊喜工厂互助码"
+                },
+                {
+                    "id": "FactoryCode5",
+                    "name": "账号五 东东工厂",
+                    "val": "",
+                    "type": "text",
+                    "placeholder": "(点击以展开说明)",
+                    "desc": "此处填写账号五的东东工厂互助码"
+                },
+                {
+                    "id": "BeanCode6",
+                    "name": "账号六 种豆得豆",
+                    "val": "",
+                    "type": "text",
+                    "placeholder": "(点击以展开说明)",
+                    "desc": "此处填写账号六的种豆得豆互助码"
+                },
+                {
+                    "id": "FruitCode6",
+                    "name": "账号六 东东农场",
+                    "val": "",
+                    "type": "text",
+                    "placeholder": "(点击以展开说明)",
+                    "desc": "此处填写账号六的东东农场互助码"
+                },
+                {
+                    "id": "PetCode6",
+                    "name": "账号六 东东萌宠",
+                    "val": "",
+                    "type": "text",
+                    "placeholder": "(点击以展开说明)",
+                    "desc": "此处填写账号六的东东萌宠互助码"
+                },
+                {
+                    "id": "ZuanCode6",
+                    "name": "账号六 京东赚赚",
+                    "val": "",
+                    "type": "text",
+                    "placeholder": "(点击以展开说明)",
+                    "desc": "此处填写账号六的京东赚赚互助码"
+                },
+                {
+                    "id": "CarzyJoyCode6",
+                    "name": "账号六 疯狂的JOY",
+                    "val": "",
+                    "type": "text",
+                    "placeholder": "(点击以展开说明)",
+                    "desc": "此处填写账号六的疯狂的JOY互助码"
+                },
+                {
+                    "id": "SurpriseCode6",
+                    "name": "账号六 惊喜工厂",
+                    "val": "",
+                    "type": "text",
+                    "placeholder": "(点击以展开说明)",
+                    "desc": "此处填写账号六的惊喜工厂互助码"
+                },
+                {
+                    "id": "FactoryCode6",
+                    "name": "账号六 东东工厂",
+                    "val": "",
+                    "type": "text",
+                    "placeholder": "(点击以展开说明)",
+                    "desc": "此处填写账号六的东东工厂互助码"
+                }
+            ],
+            "author": "@Langhaohao-123",
+            "repo": "https://raw.githubusercontent.com/Langhaohao-123/BoxJs/master/Upload_ShareCode.js",
+            "icons": [
+                "https://raw.githubusercontent.com/Langhaohao-123/BoxJs/master/JingDong.png", 
+                "https://raw.githubusercontent.com/Langhaohao-123/BoxJs/master/JingDong.png"
+            ]
+        }
+    ]
+}
+    
