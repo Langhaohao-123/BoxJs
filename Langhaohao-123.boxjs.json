@@ -9,7 +9,7 @@
             "id": "UploadShareCode",
             "name": "京东互助码",
             "keys": [
-              "BeanCode1", "FruitCode1", "PetCode1", "ZuanCode1", "CarzyJoyCode1", "SurpriseCode1", "FactoryCode1", "BeanCode2", "FruitCode2", "PetCode2", "ZuanCode2", "CarzyJoyCode2", "SurpriseCode2", "FactoryCode2", "BeanCode3", "FruitCode3", "PetCode3", "ZuanCode3", "CarzyJoyCode3", "SurpriseCode3", "FactoryCode3", "BeanCode4", "FruitCode4", "PetCode4", "ZuanCode4", "CarzyJoyCode4", "SurpriseCode4", "FactoryCode4", "BeanCode5", "FruitCode5", "PetCode5", "ZuanCode5", "CarzyJoyCode5", "SurpriseCode5", "FactoryCode5", "BeanCode6", "FruitCode6", "PetCode6", "ZuanCode6", "CarzyJoyCode6", "SurpriseCode6", "FactoryCode6"
+              "BeanCode1", "FruitCode1", "PetCode1", "ZuanCode1", "CarzyJoyCode1", "SurpriseCode1", "BeanCode2", "FruitCode2", "PetCode2", "ZuanCode2", "CarzyJoyCode2", "SurpriseCode2", "BeanCode3", "FruitCode3", "PetCode3", "ZuanCode3", "CarzyJoyCode3", "SurpriseCode3", "BeanCode4", "FruitCode4", "PetCode4", "ZuanCode4", "CarzyJoyCode4", "SurpriseCode4", "BeanCode5", "FruitCode5", "PetCode5", "ZuanCode5", "CarzyJoyCode5", "SurpriseCode5", "BeanCode6", "FruitCode6", "PetCode6", "ZuanCode6", "CarzyJoyCode6", "SurpriseCode6"
             ],
             "descs_html": [
               "<h4 align=\"center\">上传京东游戏互助码, 按说明填写互助码后保存设置</a></h4>"
@@ -64,14 +64,6 @@
                     "desc": "此处填写账号一的惊喜工厂互助码"
                 },
                 {
-                    "id": "FactoryCode1",
-                    "name": "账号一 东东工厂",
-                    "val": "",
-                    "type": "text",
-                    "placeholder": "(点击以展开说明)",
-                    "desc": "此处填写账号一的东东工厂互助码"
-                },
-                {
                     "id": "BeanCode2",
                     "name": "账号二 种豆得豆",
                     "val": "",
@@ -120,13 +112,6 @@
                     "desc": "此处填写账号二的惊喜工厂互助码"
                 },
                 {
-                    "id": "FactoryCode2",
-                    "name": "账号二 东东工厂",
-                    "val": "",
-                    "type": "text",
-                    "placeholder": "(点击以展开说明)",
-                    "desc": "此处填写账号二的东东工厂互助码"
-                },{
                     "id": "BeanCode3",
                     "name": "账号三 种豆得豆",
                     "val": "",
@@ -173,14 +158,6 @@
                     "type": "text",
                     "placeholder": "(点击以展开说明)",
                     "desc": "此处填写账号三的惊喜工厂互助码"
-                },
-                {
-                    "id": "FactoryCode3",
-                    "name": "账号三 东东工厂",
-                    "val": "",
-                    "type": "text",
-                    "placeholder": "(点击以展开说明)",
-                    "desc": "此处填写账号三的东东工厂互助码"
                 },
                 {
                     "id": "BeanCode4",
@@ -231,14 +208,6 @@
                     "desc": "此处填写账号四的惊喜工厂互助码"
                 },
                 {
-                    "id": "FactoryCode4",
-                    "name": "账号四 东东工厂",
-                    "val": "",
-                    "type": "text",
-                    "placeholder": "(点击以展开说明)",
-                    "desc": "此处填写账号四的东东工厂互助码"
-                },
-                {
                     "id": "BeanCode5",
                     "name": "账号五 种豆得豆",
                     "val": "",
@@ -285,14 +254,6 @@
                     "type": "text",
                     "placeholder": "(点击以展开说明)",
                     "desc": "此处填写账号五的惊喜工厂互助码"
-                },
-                {
-                    "id": "FactoryCode5",
-                    "name": "账号五 东东工厂",
-                    "val": "",
-                    "type": "text",
-                    "placeholder": "(点击以展开说明)",
-                    "desc": "此处填写账号五的东东工厂互助码"
                 },
                 {
                     "id": "BeanCode6",
@@ -342,14 +303,6 @@
                     "placeholder": "(点击以展开说明)",
                     "desc": "此处填写账号六的惊喜工厂互助码"
                 },
-                {
-                    "id": "FactoryCode6",
-                    "name": "账号六 东东工厂",
-                    "val": "",
-                    "type": "text",
-                    "placeholder": "(点击以展开说明)",
-                    "desc": "此处填写账号六的东东工厂互助码"
-                }
             ],
             "author": "@Langhaohao-123",
             "repo": "https://raw.githubusercontent.com/Langhaohao-123/BoxJs/master/Upload_ShareCode.js",
