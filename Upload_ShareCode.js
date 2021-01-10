@@ -333,7 +333,7 @@ function UploadFactoryCode() { // 修改
         $.get(url,(_err, resp, data)=> {  
             try {
                 const obj = JSON.parse(data)
-                $.SurpriseCodeBody = data // 修改
+                $.FactoryCodeBody = data // 修改
                 if (obj.code == 200) {
                     Information = '添加成功'
                 } else if (obj.code == 400) {
